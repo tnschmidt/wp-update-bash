@@ -10,9 +10,7 @@
 #==============================================================================
 
 #some variables
-brand='westhost'
-wp_admin_url='http://westhost.com/blog/wp-login.php'
-home_dir='/home/4qc67hib'
+read -p "Enter user home directory (like /home/username)" home_dir
 doc_root=”$home_dir/public_html”
 
 #get date for today to append to file names
@@ -66,7 +64,7 @@ rm $home_dir/latest.tar.gz
 echo
 echo '************************************************'
 echo '************************************************'
-echo 'IMPORTANT: Please log in to wp-admin at '$wp_admin_url' to see if a database update is required and nothing broke!'
+echo 'IMPORTANT: Please log in to wp-admin to see if a database update is required and nothing broke!'
 echo '************************************************'
 echo '************************************************'
 echo
