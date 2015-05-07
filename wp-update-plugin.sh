@@ -9,7 +9,7 @@
 #notes          : Should be placed in the user directory next to the public_html.
 #==============================================================================
 
-home_dir='/home/blog100tb'
+read -p "Enter user home directory (like /home/username)" home_dir
 doc_root=$home_dir/public_html
 now=$(date +%Y%m%d)
 
