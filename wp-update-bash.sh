@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#title          :update-wp.sh
+#title          :wp-update-bash.sh
 #description    :This script will update wordpress version to latest
 #author         :Thomas Schmidt
 #date           :20150507
 #version        :1
-#usage          :.\update-wp.sh
-#notes          : You may need to run chmod u+x update-wp-plugin.sh when creating. Should be placed in the user directory next to the public_html.
+#usage          :.\wp-update-bash.sh
+#notes          : Should be placed in the user home directory next to the public_html.
 #==============================================================================
 
 #some variables
