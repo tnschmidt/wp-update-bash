@@ -24,7 +24,7 @@ cd $home_dir
 tar -czf $home_dir/wp-plugins-backup-$now.tar.gz $doc_root/wp-content/plugins
 
 #get and extract the plugin
-wget --no-check-certificate $plugin_link $home_dir/$plugin_dir.$plugin_ver.zip
+wget --no-check-certificate $plugin_link -O $home_dir/$plugin_dir.$plugin_ver.zip
 unzip $home_dir/$plugin_dir.$plugin_ver.zip -d $home_dir/$plugin_dir/
 
 #update the redirection plugin with the files we just extraced
